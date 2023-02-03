@@ -66,18 +66,6 @@ export default {
       ['expo-community-flipper'],
       ['react-native-flipper-performance-plugin'],
     ],
-    hooks: {
-      postPublish: [
-        {
-          file: 'sentry-expo/upload-sourcemaps',
-          config: {
-            organization: 'personnal-use',
-            project: 'portfolio-app',
-            authToken: process.env.SENTRY_API_KEY,
-          },
-        },
-      ],
-    },
     extra: {
       eas: {
         projectId: 'e88c6276-c596-4933-ac78-d670600d45d7',
