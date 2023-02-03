@@ -1,0 +1,31 @@
+{
+  "presentation": {
+    "title": "React Native Developer",
+    "description": "My skills in React Native have allowed me to develop high-quality and user-friendly mobile applications for various projects, \nand I am constantly seeking new challenges and opportunities to grow as a developer.",
+    "buttons": {
+      "contact": "Contact me",
+      "see": "See my work"
+    }
+  },
+  "remote": {
+    "title": "Working remotely, from <0>Perpignan</0>",
+    "description": "For the last few years, I've worked full-time remotely. So far, so good. I am dedicated to ensuring smooth communication and collaboration, regardless of location."
+  },
+  "skills": {
+    "performance": {
+      "title": "A special focus on <0>performance</0>",
+      "description": "I'm focusing on performance to ensure that my applications run smoothly and efficiently. This includes optimizing code, reducing load times, and employing techniques to deliver a quick and responsive user experience."
+    },
+    "quality": {
+      "title": "<0>Quality</0> as priority",
+      "description": "Quality is my top priority in all aspects of my work. I strive to deliver outstanding results by writing clean, maintainable code, following industry standards, and ensuring user satisfaction through thorough testing and bug fixing. I am dedicated to consistently meeting my high standards to provide exceptional products for my clients."
+    },
+    "technos": {
+      "title": "<0>React Native</0>, Expo and Typescript",
+      "description": "The use of cutting-edge technologies allows me to create dynamic and user-friendly mobile applications, while also ensuring scalability and maintainability. My expertise in these technologies, combined with my commitment to delivering high-quality products, results in exceptional results for my clients."
+    }
+  },
+  "projects": {
+    "title": "Latest <0>projects</0>"
+  }
+}

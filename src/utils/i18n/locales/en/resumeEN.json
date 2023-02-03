@@ -1,0 +1,129 @@
+{
+  "career": {
+    "title": "CAREER PATH",
+    "experiences": [
+      {
+        "title": "Open Source Projects",
+        "date": {
+          "begin": "September 2022",
+          "end": "January 2023"
+        },
+        "stack": ["React Native", "Expo", "Typescript", "Redux"],
+        "features": [
+          "Development of a presentation application",
+          "Development of a clone of the Instagram application",
+          "Development of a clone of the Twitch application",
+          "Development of a clone of the Linguee application"
+        ]
+      },
+      {
+        "title": "Carpooling mobile application",
+        "date": {
+          "begin": "April 2022",
+          "end": "August 2022"
+        },
+        "place": "Cocolis, Paris (remote)",
+        "stack": ["React Native", "Expo", "Typescript", "Redux"],
+        "features": [
+          "Authentication system",
+          "Search for ads",
+          "Search for ads linked to a map",
+          "Rights management",
+          "Ads submitting",
+          "Unit tests"
+        ]
+      },
+      {
+        "title": "Personnal project",
+        "date": {
+          "begin": "September 2021",
+          "end": "February 2022"
+        },
+        "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MongoDB"],
+        "features": [
+          "Development of a web page generation and editing system",
+          "Development of a booking application + backoffice",
+          "Development of an e-commerce application + backoffice",
+          "Development of a food ordering application + backoffice"
+        ]
+      },
+      {
+        "title": "Managment software",
+        "date": {
+          "begin": "May 2021",
+          "end": "August 2021"
+        },
+        "place": "Location 253, Perpignan (remote)",
+        "stack": ["React.js", "React Native", "Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Front-end development in React",
+          "Back-end development in Node.js",
+          "Dashboard",
+          "Rental system",
+          "Add / Update / Delete vehicles",
+          "Rental and client history",
+          "Contracts generation in PDF"
+        ]
+      },
+      {
+        "title": "Back-end of a car rental website",
+        "date": {
+          "begin": "May 2021",
+          "end": "August 2021"
+        },
+        "place": "Location 253, Perpignan (remote)",
+        "stack": ["Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Authentication system",
+          "Rental system linked to the management software",
+          "Dashboard",
+          "Rental history",
+          "Integration of the payment system (stripe)"
+        ]
+      },
+      {
+        "title": "Many projets (fullstack)",
+        "date": {
+          "begin": "December 2019",
+          "end": "February 2021"
+        },
+        "place": "Web Murphy, Narbonne (remote)",
+        "stack": ["HTML", "CSS", "Javascript", "PHP", "MySQL", "React Native"],
+        "features": [
+          "Front-end developments (HTML / CSS / JS)",
+          "Back-end developments (PHP / MySQL)",
+          "Mobile development (React Native)",
+          "Authentication system",
+          "Rights management",
+          "Leave management system",
+          "Pointing system",
+          "Messaging",
+          "Cron tasks",
+          "Email sending",
+          "Email template customization",
+          "Integration of payment system (stripe)"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "EDUCATION",
+    "degrees": [
+      {
+        "name": "Titre Professionnel Développeur Web & Web Mobile <0>(Bac +2)</0>",
+        "place": "Simplon.co, Narbonne"
+      }
+    ]
+  },
+  "languages": {
+    "title": "LANGUAGES",
+    "levels": {
+      "basic": "basic",
+      "intermediate": "intermediate",
+      "fluent": "fluent"
+    }
+  },
+  "technologies": {
+    "title": "TECHNOLOGIES"
+  }
+}

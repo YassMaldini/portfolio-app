@@ -1,0 +1,129 @@
+{
+  "career": {
+    "title": "PARCOURS PROFESSIONNEL",
+    "experiences": [
+      {
+        "title": "Projets Open Source",
+        "date": {
+          "begin": "Septembre 2022",
+          "end": "Janvier 2023"
+        },
+        "stack": ["React Native", "Expo", "Typescript", "Redux"],
+        "features": [
+          "Développement d'une application de présentation",
+          "Développement d'un clone de l'application Instagram",
+          "Développement d'un clone de l'application Twitch",
+          "Développement d'un clone de l'application Linguee"
+        ]
+      },
+      {
+        "title": "Application mobile de covoiturage",
+        "date": {
+          "begin": "Avril 2022",
+          "end": "Août 2022"
+        },
+        "place": "Cocolis, Paris (remote)",
+        "stack": ["React Native", "Expo", "Typescript", "Redux"],
+        "features": [
+          "Système d'authentification",
+          "Recherche d'annonces",
+          "Recherche en lien avec une map",
+          "Gestion des droits",
+          "Soumission d'annonces",
+          "Tests unitaires"
+        ]
+      },
+      {
+        "title": "Projet perso",
+        "date": {
+          "begin": "Septembre 2021",
+          "end": "Février 2022"
+        },
+        "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MongoDB"],
+        "features": [
+          "Développement d'un système de génération et d'édition de pages web",
+          "Développement application mobile de réservation de RDV + backoffice",
+          "Développement application mobile e-commerce + backoffice",
+          "Développement application mobile de commande de plats + backoffice"
+        ]
+      },
+      {
+        "title": "Logiciel de gestion",
+        "date": {
+          "begin": "Mai 2021",
+          "end": "Août 2021"
+        },
+        "place": "Location 253, Perpignan (remote)",
+        "stack": ["React.js", "React Native", "Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Développement du front-end en React",
+          "Développement du back-end en Node.js",
+          "Tableau de bord",
+          "Sysème de réservation",
+          "Ajout / modification / suppression de véhicules",
+          "Historique de réservation et historique clients",
+          "Génération de contrats en PDF"
+        ]
+      },
+      {
+        "title": "Back-end site web de location de véhicules",
+        "date": {
+          "begin": "Mai 2021",
+          "end": "Août 2021"
+        },
+        "place": "Location 253, Perpignan (remote)",
+        "stack": ["Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Système d'authentification",
+          "Système de réservation relié au logiciel de gestion",
+          "Tableau de bord",
+          "Historique de réservations",
+          "Intégration du système de paiement (stripe)"
+        ]
+      },
+      {
+        "title": "Multiples projets (fullstack)",
+        "date": {
+          "begin": "Décembre 2019",
+          "end": "Fevrier 2021"
+        },
+        "place": "Web Murphy, Narbonne (remote)",
+        "stack": ["HTML", "CSS", "Javascript", "PHP", "MySQL", "React Native"],
+        "features": [
+          "Développements front-end (HTML / CSS / JS)",
+          "Développement back-end (PHP / MySQL)",
+          "Développement mobile (React Native)",
+          "Système d'authentification",
+          "Gestion des droits",
+          "Système de gestion de congés",
+          "Système de pointage",
+          "Messagerie",
+          "Tâches cron",
+          "Envois d'email",
+          "Personnalisation de template d'emails",
+          "Intégration du système de paiement (stripe)"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "FORMATION",
+    "degrees": [
+      {
+        "name": "Titre Professionnel Développeur Web & Web Mobile <0>(Bac +2)</0>",
+        "place": "Simplon.co, Narbonne"
+      }
+    ]
+  },
+  "languages": {
+    "title": "LANGUES",
+    "levels": {
+      "basic": "bases",
+      "intermediate": "intermédiaire",
+      "fluent": "courant"
+    }
+  },
+  "technologies": {
+    "title": "TECHNOLOGIES"
+  }
+}

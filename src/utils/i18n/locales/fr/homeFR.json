@@ -1,0 +1,31 @@
+{
+  "presentation": {
+    "title": "Développeur React Native",
+    "description": "Mes compétences en React Native m'ont permis de développer des applications mobile de haute qualité et conviviales dans le cadre de projets divers et variés, \net je suis toujours à la recherche de nouveaux défis et opportunités pour grandir en tant que développeur.",
+    "buttons": {
+      "contact": "Me contacter",
+      "see": "Mes projets"
+    }
+  },
+  "remote": {
+    "title": "Travaille à distance, de <0>Perpignan</0>",
+    "description": "J'ai travaillé à temps plein à distance durant ces dernières années, jamais sans le moindre soucis. Je suis dédié à assurer une excellent communication et ce peu importe la distance."
+  },
+  "skills": {
+    "performance": {
+      "title": "Un intérêt particulier pour la <0>performance</0>",
+      "description": "Je porte un intérêt particulier à la performance pour garantir que mes applications fonctionnent de manière fluide et efficace. Il s'agit notamment d'optimiser le code, de réduire les temps de chargement et d'utiliser des techniques permettant d'offrir une expérience utilisateur rapide et réactive."
+    },
+    "quality": {
+      "title": "La <0>Qualité</0> comme priorité",
+      "description": "La qualité est ma première priorité dans tous les aspects de mes travaux. Je m'éfforce d'obtenir d'excelents résultants en écrivant un code propre et maintenable, en respectant les bonnes pratiques et en garatissant la satisfaction des utilisateurs au travers de tests complets et d'une correction efficace des bugs."
+    },
+    "technos": {
+      "title": "<0>React Native</0>, Expo et Typescript",
+      "description": "L'usage des dernières technologies me permettent de créer des applications dynamique et conviviales, toute en assurant une excelente scalabilité et maintenabilité. Mes connaissances sur ces technologies, combinées à mon engagement de livrer des produits de haute qualité conduisent à d'excelents résultats."
+    }
+  },
+  "projects": {
+    "title": "Mes derniers <0>projets</0>"
+  }
+}
