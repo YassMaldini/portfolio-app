@@ -35,10 +35,7 @@
         "buildType": "apk"
       },
       "ios": {
-        "resourceClass": "m1-medium",
-        "appleId": "yass.maldini@gmail.com",
-        "ascAppId": "1669088544",
-        "appleTeamId": "PDZ8AHDZ3L"
+        "resourceClass": "m1-medium"
       },
       "env": {
         "APP_NAME": "YassBK",
@@ -48,6 +45,12 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "yass.maldini@gmail.com",
+        "ascAppId": "1669088544",
+        "appleTeamId": "PDZ8AHDZ3L"
+      }
+    }
   }
 }
