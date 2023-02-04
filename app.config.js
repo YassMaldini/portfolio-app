@@ -4,8 +4,8 @@ export default {
   expo: {
     name: 'YassBK',
     slug: 'portfolio-app',
-    version: '0.1.1',
-    runtimeVersion: '0.1.0',
+    version: '1.0.0',
+    runtimeVersion: '1.0.0',
     jsEngine: 'hermes',
     icon: './assets/icon.png',
     orientation: 'default',
@@ -22,7 +22,7 @@ export default {
     ios: {
       requireFullScreen: true,
       bundleIdentifier: 'com.ios.yassbk.portfolio',
-      buildNumber: '6',
+      buildNumber: '7',
       enableHermes: true,
     },
     android: {
@@ -30,7 +30,7 @@ export default {
         foregroundImage: './assets/adaptive-icon.png',
       },
       package: 'com.android.yassbk.portfolio',
-      versionCode: 6,
+      versionCode: 7,
       enableHermes: true,
     },
     web: {
