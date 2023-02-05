@@ -13,6 +13,7 @@ export const DARK_COLORS = Object.freeze({
   surfacePressed: PALETTE.surfacePressedDark,
   surfaceSearchField: PALETTE.surfaceSearchFieldDark,
   surfaceNeutralSubdued: PALETTE.surfaceNeutralSubduedDark,
+  surfaceSubdued: PALETTE.surfaceSubduedOnDark,
 
   icon: PALETTE.iconOnDark,
   divider: PALETTE.dividerDark,

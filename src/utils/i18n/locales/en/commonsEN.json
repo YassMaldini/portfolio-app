@@ -1,7 +1,8 @@
 {
   "languages": {
     "en": "English",
-    "fr": "French"
+    "fr": "French",
+    "es": "Spanish"
   },
   "months": {
     "january": "january",
@@ -17,8 +18,15 @@
     "november": "november",
     "december": "december"
   },
+  "seasons": {
+    "spring": "spring",
+    "summer": "summer",
+    "autumn": "autumn",
+    "winter": "winter"
+  },
   "bottomTab": {
     "home": "Home",
+    "portfolio": "Portfolio",
     "resume": "Resume",
     "settings": "Settings"
   }

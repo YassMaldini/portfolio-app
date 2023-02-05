@@ -1,0 +1,20 @@
+{
+  "personal": {
+    "title": "Personal application <0>(current app)</0>"
+  },
+  "twitch": {
+    "title": "Clone of the <0>Twitch</0> application"
+  },
+  "instagram": {
+    "title": "Clone of the <0>Instagram</0> application"
+  },
+  "linguee": {
+    "title": "Clone of the <0>Linguee</0> application"
+  },
+  "appointment": {
+    "title": "Appointment scheduling application"
+  },
+  "food": {
+    "title": "Food ordering application"
+  }
+}

@@ -18,8 +18,15 @@
     "november": "novembre",
     "december": "décembre"
   },
+  "seasons": {
+    "spring": "printemps",
+    "summer": "été",
+    "autumn": "automne",
+    "winter": "hiver"
+  },
   "bottomTab": {
     "home": "Accueil",
+    "portfolio": "Portfolio",
     "resume": "CV",
     "settings": "Paramètres"
   }

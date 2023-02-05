@@ -4,11 +4,13 @@ import { Theme } from '../../../utils/theme/theme';
 import HomeScreen from '../../screens/HomeScreen/HomeScreen';
 import { SvgIcon } from '../../designSystem/SvgIcon/SvgIcon';
 import HomeIcon from '../../../../assets/vectors/home-outline.svg';
+import AlbumsIcon from '../../../../assets/vectors/albums-outline.svg';
 import SettingsIcon from '../../../../assets/vectors/settings-outline.svg';
 import NewspaperIcon from '../../../../assets/vectors/newspaper-outline.svg';
 import ResumeScreen from '../../screens/ResumeScreen/ResumeScreen';
 import SettingsScreen from '../../screens/SettingsScreen/SettingsScreen';
 import { useTranslation } from 'react-i18next';
+import PortfolioScreen from '../../screens/PortfolioScreen/PortfolioScreen';
 
 const BottomTabStack = () => {
   const { t } = useTranslation('commons', { keyPrefix: 'bottomTab' });
@@ -40,6 +42,23 @@ const BottomTabStack = () => {
               width={iconSize}
               height={iconSize}
               icon={HomeIcon}
+              color={iconColor(focused)}
+            />
+          ),
+          tabBarActiveTintColor: theme.colors.textHighlight,
+          tabBarInactiveTintColor: theme.colors.text,
+        }}
+      />
+      <Screen
+        name="PortfolioScreen"
+        component={PortfolioScreen}
+        options={{
+          tabBarLabel: t('portfolio'),
+          tabBarIcon: ({ focused }) => (
+            <SvgIcon
+              width={iconSize}
+              height={iconSize}
+              icon={AlbumsIcon}
               color={iconColor(focused)}
             />
           ),
