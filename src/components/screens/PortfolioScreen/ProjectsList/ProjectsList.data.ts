@@ -3,13 +3,13 @@ import { ProjectsListData } from './ProjectsList.types';
 
 export const projectsListData: (t: TFunction) => ProjectsListData[] = (t) => [
   {
-    title: t('portfolio:personal.title'),
+    title: t('portfolio:projects.personal.title'),
     stack: ['React Native', 'Expo', 'Typescript', 'Redux'],
     date: `${t('commons:months.february')} 2023`,
     images: [],
   },
   {
-    title: t('portfolio:twitch.title'),
+    title: t('portfolio:projects.twitch.title'),
     stack: ['React Native', 'Expo', 'Typescript', 'Redux'],
     date: `${t('commons:months.december')} 2022`,
     images: [
@@ -46,7 +46,7 @@ export const projectsListData: (t: TFunction) => ProjectsListData[] = (t) => [
     ],
   },
   {
-    title: t('portfolio:linguee.title'),
+    title: t('portfolio:projects.linguee.title'),
     stack: ['React Native', 'Expo', 'Typescript', 'Redux'],
     date: `${t('commons:months.november')} 2022`,
     images: [
@@ -71,7 +71,7 @@ export const projectsListData: (t: TFunction) => ProjectsListData[] = (t) => [
     ],
   },
   {
-    title: t('portfolio:instagram.title'),
+    title: t('portfolio:projects.instagram.title'),
     stack: ['React Native', 'Expo', 'Typescript', 'Redux'],
     date: `${t('commons:months.october')} 2022`,
     images: [
@@ -93,7 +93,7 @@ export const projectsListData: (t: TFunction) => ProjectsListData[] = (t) => [
     ],
   },
   {
-    title: t('portfolio:appointment.title'),
+    title: t('portfolio:projects.appointment.title'),
     stack: ['React Native', 'Expo'],
     date: `${t('commons:seasons.autumn')} 2021`,
     images: [
@@ -115,7 +115,7 @@ export const projectsListData: (t: TFunction) => ProjectsListData[] = (t) => [
     ],
   },
   {
-    title: t('portfolio:food.title'),
+    title: t('portfolio:projects.food.title'),
     stack: ['React Native', 'Expo', 'Typescript'],
     date: `${t('commons:seasons.autumn')} 2021`,
     images: [
