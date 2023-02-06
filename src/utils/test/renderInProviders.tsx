@@ -11,37 +11,18 @@ import configureStore from '../../store/configureStore';
 const { store, persistor } = configureStore();
 const queryClient = new QueryClient();
 
-const renderInProviders = (
-  children: ReactNode,
-  options?: {
-    isHomeStack: boolean;
-  }
-) => {
-  if (options?.isHomeStack) {
-    return render(
-      <StoreProvider {...{ store }}>
-        <PersistGate {...{ persistor }}>
-          <QueryClientProvider client={queryClient}>
-            <ThemeProvider theme={getTheme()}>
-              <BottomSheetModalProvider>{children}</BottomSheetModalProvider>
-            </ThemeProvider>
-          </QueryClientProvider>
-        </PersistGate>
-      </StoreProvider>
-    );
-  } else {
-    return render(
-      <StoreProvider {...{ store }}>
-        <PersistGate {...{ persistor }}>
-          <QueryClientProvider client={queryClient}>
-            <ThemeProvider theme={getTheme()}>
-              <BottomSheetModalProvider>{children}</BottomSheetModalProvider>
-            </ThemeProvider>
-          </QueryClientProvider>
-        </PersistGate>
-      </StoreProvider>
-    );
-  }
+const renderInProviders = (children: ReactNode) => {
+  return render(
+    <StoreProvider {...{ store }}>
+      <PersistGate {...{ persistor }}>
+        <QueryClientProvider client={queryClient}>
+          <ThemeProvider theme={getTheme()}>
+            <BottomSheetModalProvider>{children}</BottomSheetModalProvider>
+          </ThemeProvider>
+        </QueryClientProvider>
+      </PersistGate>
+    </StoreProvider>
+  );
 };
 
 export default renderInProviders;

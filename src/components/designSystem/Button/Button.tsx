@@ -31,7 +31,7 @@ const Button = ({
       borderRadius="xl"
       {...props}>
       {Boolean(startElement) && startElement}
-      <Text color={buttonContentColor} fontFamily="Roboto-Medium" fontSize={16}>
+      <Text testID="buttonText" color={buttonContentColor} fontFamily="Roboto-Medium" fontSize={16}>
         {children}
       </Text>
       {Boolean(endElement) && endElement}
