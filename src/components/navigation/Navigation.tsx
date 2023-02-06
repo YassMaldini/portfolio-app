@@ -10,7 +10,6 @@ import { StatusBar } from 'expo-status-bar';
 import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
-import { DraxProvider } from 'react-native-drax';
 import Box from '../designSystem/Box/Box';
 import { Loading } from '../commons/Loading/Loading';
 import i18n from '../../utils/i18n/i18n';
@@ -57,13 +56,11 @@ const Navigation = (): JSX.Element => {
       <StatusBar style={isDarkMode ? 'light' : 'dark'} translucent />
       <ThemeProvider {...{ theme }}>
         <BottomSheetModalProvider>
-          <DraxProvider>
-            <SafeAreaProvider style={{ backgroundColor: theme.colors.background }}>
-              <Box flex={1} onLayout={onLayoutRootView}>
-                <RootStack />
-              </Box>
-            </SafeAreaProvider>
-          </DraxProvider>
+          <SafeAreaProvider style={{ backgroundColor: theme.colors.background }}>
+            <Box flex={1} onLayout={onLayoutRootView}>
+              <RootStack />
+            </Box>
+          </SafeAreaProvider>
         </BottomSheetModalProvider>
       </ThemeProvider>
     </NavigationContainer>
