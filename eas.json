@@ -37,7 +37,6 @@
       "ios": {
         "resourceClass": "m1-medium"
       },
-      "autoIncrement": true,
       "env": {
         "APP_NAME": "YassBK",
         "IOS_BUNDLE_ID": "com.ios.yassbk.portfolio",
