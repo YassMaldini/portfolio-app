@@ -22,7 +22,28 @@
   <p align="center">
     <b>My portfolio mobile app made in React Native and Typescript.</b>
   </p>
+  
+  <br />
+  
+  <img src=".github/examples/example.gif" />
 </div>
+
+## Try on your device
+
+  -  iOS
+    <br />
+    <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/12837315-576f-4241-a343-b38c36392046">
+      https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/12837315-576f-4241-a343-b38c36392046
+    </a>
+    <br />
+    Note: You will need to enable Developer Mode on your iOS device to install the app.
+    You can follow <a href="https://docs.expo.dev/guides/ios-developer-mode/">these instructions</a> to enable Developer Mode.
+
+  - 🤖 Android
+    <br />
+    <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/12837315-576f-4241-a343-b38c36392046">
+      https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/12837315-576f-4241-a343-b38c36392046
+    </a>
 
 <!-- GETTING STARTED -->
 
