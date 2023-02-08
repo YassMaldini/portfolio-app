@@ -83,11 +83,30 @@ Follow these steps to set up the project locally.
 
 ### Build
 
-- Development build
+Create a build with EAS
   ```sh
-  eas build --platform android|ios|all --profile development
+  eas build --platform android|ios|all --profile development|preview|production
   ```
-- Production build
+- You can also create a build locally
   ```sh
-  eas build --platform android|ios|all --profile production
+  eas build --platform android|ios|all --profile development|preview|production --local
+   ```
+
+### Test
+
+#### Unit tests (Jest)
+  ```sh
+  yarn test
+  ```
+#### E2E tests (Detox)
+  ```sh
+  e2e:android|ios:debug|release:build|test
+  ```
+  For example the command to create a release build for an ios simulator would be:
+  ```sh
+  e2e:ios:release:build
+  ```
+  and to run the tests
+  ```sh
+  e2e:ios:release:test
   ```
