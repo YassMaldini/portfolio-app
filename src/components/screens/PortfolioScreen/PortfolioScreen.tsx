@@ -15,7 +15,7 @@ const PortfolioScreen = () => {
 
   return (
     <ScrollView>
-      <Box paddingHorizontal="s">
+      <Box testID="portfolioScreen" paddingHorizontal="s">
         <Text fontSize={24} textAlign="center" fontFamily="Roboto-Medium">
           <Trans
             components={[<Text key="title" color="textHighlight" fontFamily="Roboto-Medium" />]}>

@@ -3,9 +3,9 @@ import Pressable from '../../../designSystem/Pressable/Pressable';
 import Text from '../../../designSystem/Text/Text';
 import { SettingsItemProps } from './SettingsItem.types';
 
-const SettingsItem = ({ label, rightElement, onPress }: SettingsItemProps) => {
+const SettingsItem = ({ label, rightElement, ...props }: SettingsItemProps) => {
   return (
-    <Pressable {...{ onPress }}>
+    <Pressable {...props}>
       <Box
         height={50}
         paddingHorizontal="sToM"

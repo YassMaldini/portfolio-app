@@ -34,7 +34,7 @@ const SettingsScreen = () => {
   };
 
   return (
-    <Box flex={1} paddingVertical="sToM">
+    <Box testID="settingsScreen" flex={1} paddingVertical="sToM">
       <SettingsSwitchItem
         label={t('list.darkMode', { ns: 'settings' })}
         toggleSwitch={darkModeSwitch}
@@ -52,6 +52,7 @@ const SettingsScreen = () => {
           return (
             <Pressable
               key={index}
+              accessibilityLabel={`bottomModalLanguageItem#${language}`}
               padding="sToM"
               onPress={() => changeLanguage(language)}
               // {...(isCurrentLanguage && {

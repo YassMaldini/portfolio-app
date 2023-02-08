@@ -12,7 +12,7 @@ const HomePresentation = ({ scrollViewRef }: HomePresentationProps) => {
   const { t } = useTranslation('home', { keyPrefix: 'presentation' });
 
   return (
-    <Box paddingHorizontal="m" paddingTop="mToL">
+    <Box testID="homePresentation" paddingHorizontal="m" paddingTop="mToL">
       <Text textAlign="center" color="textHighlight" fontSize={18} marginBottom="xs">
         Yacine Berkane
       </Text>
@@ -37,6 +37,7 @@ const HomePresentation = ({ scrollViewRef }: HomePresentationProps) => {
         </Box>
         <Box flex={1} marginLeft="s">
           <Button
+            testID="seeMyWorkButton"
             onPress={() => scrollViewRef.current?.scrollToEnd()}
             variant={ButtonVariants.Text}
             endElement={

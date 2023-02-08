@@ -16,7 +16,7 @@ const HomeProjects = () => {
   const CAROUSEL_HEIGHT = CAROUSEL_WIDTH / (9 / 16);
 
   return (
-    <Box>
+    <Box testID="homeProjects">
       <Text fontSize={24} textAlign="center" fontFamily="Roboto-Medium">
         <Trans components={[<Text key="title" color="textHighlight" fontFamily="Roboto-Medium" />]}>
           {t('title')}

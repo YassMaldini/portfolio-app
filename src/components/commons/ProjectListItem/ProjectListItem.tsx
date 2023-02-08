@@ -9,7 +9,7 @@ import { Trans } from 'react-i18next';
 
 const ProjectListItem = ({ title, stack, date, images, ...props }: ProjectListItemProps) => {
   return (
-    <Pressable marginBottom="m" {...props}>
+    <Pressable testID="projectListItem" marginBottom="m" {...props}>
       <Box
         paddingHorizontal="sToM"
         paddingVertical="sToStoM"

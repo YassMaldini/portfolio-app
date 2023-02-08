@@ -36,6 +36,7 @@ const BottomTabStack = () => {
         name="HomeScreen"
         component={HomeScreen}
         options={{
+          tabBarTestID: 'tabBarHome',
           tabBarLabel: t('home'),
           tabBarIcon: ({ focused }) => (
             <SvgIcon
@@ -53,6 +54,8 @@ const BottomTabStack = () => {
         name="PortfolioScreen"
         component={PortfolioScreen}
         options={{
+          tabBarTestID: 'tabBarPortfolio',
+          tabBarAccessibilityLabel: 'Portfolio',
           tabBarLabel: t('portfolio'),
           tabBarIcon: ({ focused }) => (
             <SvgIcon
@@ -70,6 +73,7 @@ const BottomTabStack = () => {
         name="ResumeScreen"
         component={ResumeScreen}
         options={{
+          tabBarTestID: 'tabBarResume',
           tabBarLabel: t('resume'),
           tabBarIcon: ({ focused }) => (
             <SvgIcon
@@ -87,6 +91,7 @@ const BottomTabStack = () => {
         name="SettingsScreen"
         component={SettingsScreen}
         options={{
+          tabBarTestID: 'tabBarSettings',
           tabBarLabel: t('settings'),
           tabBarIcon: ({ focused }) => (
             <SvgIcon

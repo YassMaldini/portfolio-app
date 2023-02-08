@@ -12,6 +12,7 @@ const SettingsSwitchItem = ({ label, toggleSwitch, isEnabled = true }: SettingsS
       {...{ label }}
       rightElement={
         <Switch
+          testID="settingsSwitchItem"
           trackColor={{ false: '#767577', true: colors.actionPrimary }}
           thumbColor={isEnabled ? colors.actionSecondary : colors.surfaceNeutralSubdued}
           ios_backgroundColor={colors.surfaceNeutralSubdued}

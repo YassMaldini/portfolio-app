@@ -9,10 +9,11 @@ const SettingsLanguageItem = ({ label, value, onPress }: SettingsLanguageItemPro
   const ICON_SIZE = 18;
   return (
     <SettingsItem
+      testID="settingsLanguageItem"
       {...{ label, onPress }}
       rightElement={
         <Box flexDirection="row" alignItems="center">
-          <Text fontSize={16} color="textSubdued">
+          <Text testID="settingsLanguageItemText" fontSize={16} color="textSubdued">
             {value}
           </Text>
           <SvgIcon

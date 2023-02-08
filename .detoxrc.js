@@ -12,15 +12,15 @@ module.exports = {
   apps: {
     'ios.debug': {
       type: 'ios.app',
-      binaryPath: 'ios/build/Build/Products/Debug-iphonesimulator/Init.app',
+      binaryPath: 'ios/build/Build/Products/Debug-iphonesimulator/YassBK.app',
       build:
-        'xcodebuild -workspace ios/Init.xcworkspace -scheme Init -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build',
+        'xcodebuild -workspace ios/YassBK.xcworkspace -scheme YassBK -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build',
     },
     'ios.release': {
       type: 'ios.app',
-      binaryPath: 'ios/build/Build/Products/Release-iphonesimulator/Init.app',
+      binaryPath: 'ios/build/Build/Products/Release-iphonesimulator/YassBK.app',
       build:
-        'xcodebuild -workspace ios/Init.xcworkspace -scheme Init -configuration Release -sdk iphonesimulator -derivedDataPath ios/build',
+        'xcodebuild -workspace ios/YassBK.xcworkspace -scheme YassBK -configuration Release -sdk iphonesimulator -derivedDataPath ios/build',
     },
     'android.debug': {
       type: 'android.apk',
