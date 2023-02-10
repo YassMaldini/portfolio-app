@@ -30,20 +30,20 @@
 
 ## Try on your device
 
-  -  iOS
-    <br />
-    <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/12837315-576f-4241-a343-b38c36392046">
-      https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/12837315-576f-4241-a343-b38c36392046
-    </a>
-    <br />
-    Note: You will need to enable Developer Mode on your iOS device to install the app.
-    You can follow <a href="https://docs.expo.dev/guides/ios-developer-mode/">these instructions</a> to enable Developer Mode.
+- 🍎 iOS
+  <br />
+  <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/8523b2f9-cc1e-4fe1-8548-d4e1c9211a68">
+  https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/8523b2f9-cc1e-4fe1-8548-d4e1c9211a68
+  </a>
+  <br />
+  Note: You will need to enable Developer Mode on your iOS device to install the app.
+  You can follow <a href="https://docs.expo.dev/guides/ios-developer-mode/">these instructions</a> to enable Developer Mode.
 
-  - 🤖 Android
-    <br />
-    <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/a29e75c2-fbdc-4925-9eef-f5329db084ef">
-      https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/a29e75c2-fbdc-4925-9eef-f5329db084ef
-    </a>
+- 🤖 Android
+  <br />
+  <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/e7a0db18-a984-4831-b343-b2520644bb52">
+  https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/e7a0db18-a984-4831-b343-b2520644bb52
+  </a>
 
 <!-- GETTING STARTED -->
 
@@ -72,11 +72,11 @@ Follow these steps to set up the project locally.
    ```sh
    yarn install
    ```
-3. Prebuild the project
+3. Prebuild both ios and android
    ```sh
    npx expo prebuild
    ```
-4. Create a development build locally
+4. Run a development build locally
    ```sh
    yarn android|ios
    ```
@@ -84,29 +84,38 @@ Follow these steps to set up the project locally.
 ### Build
 
 Create a build with EAS
-  ```sh
-  eas build --platform android|ios|all --profile development|preview|production
-  ```
+
+```sh
+eas build --platform android|ios|all --profile development|preview|production
+```
+
 - You can also create a build locally
   ```sh
   eas build --platform android|ios|all --profile development|preview|production --local
-   ```
+  ```
 
 ### Test
 
 #### Unit tests (Jest)
-  ```sh
-  yarn test
-  ```
+
+```sh
+yarn test
+```
+
 #### E2E tests (Detox)
-  ```sh
-  yarn e2e:android|ios:debug|release:build|test
-  ```
-  For example the command to create a release build for an ios simulator would be:
-  ```sh
-  yarn e2e:ios:release:build
-  ```
-  and to run the tests
-  ```sh
-  yarn e2e:ios:release:test
-  ```
+
+```sh
+yarn e2e:android|ios:debug|release:build|test
+```
+
+For example the command to create a release build for an ios simulator would be:
+
+```sh
+yarn e2e:ios:release:build
+```
+
+and to run the tests
+
+```sh
+yarn e2e:ios:release:test
+```

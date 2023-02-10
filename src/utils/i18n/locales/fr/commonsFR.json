@@ -27,6 +27,7 @@
   "bottomTab": {
     "home": "Accueil",
     "portfolio": "Portfolio",
+    "availability": "Disponibilité",
     "resume": "CV",
     "settings": "Paramètres"
   }

@@ -7,6 +7,7 @@ export const DARK_COLORS = Object.freeze({
   background: PALETTE.black,
 
   textSubdued: PALETTE.textSubduedOnDark,
+  textDisabled: PALETTE.textDisabledOnDark,
 
   surface: PALETTE.surfaceDark,
   surfaceHovered: PALETTE.surfaceHoveredDark,

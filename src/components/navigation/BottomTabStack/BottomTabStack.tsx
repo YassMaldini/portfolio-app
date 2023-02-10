@@ -5,17 +5,24 @@ import HomeScreen from '../../screens/HomeScreen/HomeScreen';
 import { SvgIcon } from '../../designSystem/SvgIcon/SvgIcon';
 import HomeIcon from '../../../../assets/vectors/home-outline.svg';
 import AlbumsIcon from '../../../../assets/vectors/albums-outline.svg';
+import CalendarIcon from '../../../../assets/vectors/calendar-outline.svg';
 import SettingsIcon from '../../../../assets/vectors/settings-outline.svg';
 import NewspaperIcon from '../../../../assets/vectors/newspaper-outline.svg';
 import ResumeScreen from '../../screens/ResumeScreen/ResumeScreen';
 import SettingsScreen from '../../screens/SettingsScreen/SettingsScreen';
 import { useTranslation } from 'react-i18next';
 import PortfolioScreen from '../../screens/PortfolioScreen/PortfolioScreen';
+import AvailabilityScreen from '../../screens/AvailabilityScreen/AvailabilityScreen';
+import Box from '../../designSystem/Box/Box';
+import { useSelector } from 'react-redux';
+import { availabilitySelector } from '../../../store/main/mainReducerSelectors';
 
 const BottomTabStack = () => {
   const { t } = useTranslation('commons', { keyPrefix: 'bottomTab' });
 
   const theme = useTheme<Theme>();
+
+  const isAvailable = useSelector(availabilitySelector);
 
   const iconSize = 24;
   const iconColor = (focused: boolean) => (focused ? 'iconHighlight' : 'text');
@@ -51,6 +58,24 @@ const BottomTabStack = () => {
         }}
       />
       <Screen
+        name="ResumeScreen"
+        component={ResumeScreen}
+        options={{
+          tabBarTestID: 'tabBarResume',
+          tabBarLabel: t('resume'),
+          tabBarIcon: ({ focused }) => (
+            <SvgIcon
+              width={iconSize}
+              height={iconSize}
+              icon={NewspaperIcon}
+              color={iconColor(focused)}
+            />
+          ),
+          tabBarActiveTintColor: theme.colors.textHighlight,
+          tabBarInactiveTintColor: theme.colors.text,
+        }}
+      />
+      <Screen
         name="PortfolioScreen"
         component={PortfolioScreen}
         options={{
@@ -70,18 +95,28 @@ const BottomTabStack = () => {
         }}
       />
       <Screen
-        name="ResumeScreen"
-        component={ResumeScreen}
+        name="AvailabilityScreen"
+        component={AvailabilityScreen}
         options={{
-          tabBarTestID: 'tabBarResume',
-          tabBarLabel: t('resume'),
+          tabBarTestID: 'tabBarAvailability',
+          tabBarLabel: t('availability'),
           tabBarIcon: ({ focused }) => (
-            <SvgIcon
-              width={iconSize}
-              height={iconSize}
-              icon={NewspaperIcon}
-              color={iconColor(focused)}
-            />
+            <Box position="relative">
+              <SvgIcon
+                width={iconSize}
+                height={iconSize}
+                icon={CalendarIcon}
+                color={iconColor(focused)}
+              />
+              <Box
+                position="absolute"
+                bottom={-2}
+                right={-5}
+                width={10}
+                height={10}
+                backgroundColor={isAvailable ? 'iconSuccess' : 'iconCritical'}
+                borderRadius="m"></Box>
+            </Box>
           ),
           tabBarActiveTintColor: theme.colors.textHighlight,
           tabBarInactiveTintColor: theme.colors.text,

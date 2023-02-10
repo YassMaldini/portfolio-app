@@ -2,8 +2,10 @@ import {
   ResetMainAction,
   RESET_MAIN_REDUCER,
   SetCurrentLanguageAction,
+  SetIsAvailableAction,
   SetIsDarkModeAction,
   SET_CURRENT_LANGUAGE,
+  SET_IS_AVAILABLE,
   SET_IS_DARK_MODE,
 } from './mainActions.types';
 import { Dispatch } from 'redux';
@@ -23,6 +25,13 @@ export const setCurrentLanguage =
       currentLanguage,
     });
   };
+
+export const setAvailability = (isAvailable: boolean) => async (dispatch: Dispatch) => {
+  dispatch<SetIsAvailableAction>({
+    type: SET_IS_AVAILABLE,
+    isAvailable,
+  });
+};
 
 export const resetMain = () => async (dispatch: Dispatch) => {
   dispatch<ResetMainAction>({

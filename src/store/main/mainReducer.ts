@@ -2,6 +2,7 @@ import { Reducer } from 'redux';
 import MainReducerActionsTypes, {
   RESET_MAIN_REDUCER,
   SET_CURRENT_LANGUAGE,
+  SET_IS_AVAILABLE,
   SET_IS_DARK_MODE,
 } from './mainActions/mainActions.types';
 import MainReducerState from './mainReducer.types';
@@ -23,6 +24,13 @@ const mainReducer: Reducer<MainReducerState, MainReducerActionsTypes> = (
       return {
         ...state,
         currentLanguage: action.currentLanguage,
+      };
+    }
+
+    case SET_IS_AVAILABLE: {
+      return {
+        ...state,
+        isAvailable: action.isAvailable,
       };
     }
 

@@ -10,7 +10,6 @@
         "buildType": "apk"
       },
       "ios": {
-        "simulator": true,
         "resourceClass": "m1-medium"
       },
       "env": {

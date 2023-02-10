@@ -27,6 +27,7 @@
   "bottomTab": {
     "home": "Home",
     "portfolio": "Portfolio",
+    "availability": "Availability",
     "resume": "Resume",
     "settings": "Settings"
   }
