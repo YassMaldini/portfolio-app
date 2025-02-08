@@ -7,7 +7,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { connectToDevTools } from 'react-devtools-core';
 
 import './src/utils/i18n/i18n';
-import './src/utils/sentry';
+// import './src/utils/sentry';
 
 const App = () => {
   const { store, persistor } = configureStore();

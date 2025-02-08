@@ -1,4 +1,3 @@
-import 'react-native-reanimated/lib/reanimated2/jestUtils';
 import mockAsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock';
 import * as ReactNative from 'react-native';
 
@@ -23,11 +22,6 @@ jest.mock('@react-navigation/native', () => ({
 }));
 
 jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);
-
-jest.mock('react-query', () => ({
-  ...jest.requireActual('react-query'),
-  useMutation: jest.fn(),
-}));
 
 jest.mock('react-redux', () => ({
   ...jest.requireActual('react-redux'),

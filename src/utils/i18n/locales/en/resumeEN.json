@@ -3,6 +3,79 @@
     "title": "CAREER PATH",
     "experiences": [
       {
+        "title": "Fullstack / AI developer",
+        "date": {
+          "begin": "Décembre 2024",
+          "end": "Janvier 2025"
+        },
+        "place": "POV",
+        "stack": ["React.js", "IA (phi4, bge)", "neo4j", "Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Prototype of web + IA project",
+          "Front-end + Backoffice (React / Next.js / Typescript / MUI)",
+          "Back-end (NodeJS / Express / Sequelize (MySQL) / Typescript)",
+          "AI Agent + RAG + Knownledge Graph (neo4j)"
+        ]
+      },
+      {
+        "title": "Mobile developer",
+        "date": {
+          "begin": "Août 2024",
+          "end": "Octobre 2024"
+        },
+        "place": "Dummy app (Linguizz)",
+        "stack": ["React.js", "Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Mobile app of language learning",
+          "React Native (Expo)",
+          "Native devlopment (Swift & Kotlin)",
+          "CI / CD (Github Actions)",
+          "Déployment on the stores",
+          "Error tracking (Sentry)",
+          "Unit & E2E test (Jest / Detox)",
+          "Translation handling (i18n)",
+          "Dark mode",
+          "Push notifications"
+        ]
+      },
+      {
+        "title": "Fullstack developer",
+        "date": {
+          "begin": "Avril 2024",
+          "end": "Mai 2024"
+        },
+        "place": "Family avantages, Perpignan (remote)",
+        "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Development of a booking application + backoffice",
+          "Development of a mobile app",
+          "React / React Native / NodeJS / Express / Typescript",
+          "CRUD particuliers / entreprises / produits / souscriptions",
+          "Stats",
+          "QR code handling"
+        ]
+      },
+      {
+        "title": "Lead developer fullstack",
+        "date": {
+          "begin": "Mai 2023",
+          "end": "Mars 2024"
+        },
+        "place": "Lens group, Perpignan (remote)",
+        "stack": ["React.js", "Node.js", "Express.js", "MySQL"],
+        "features": [
+          "Développement plateforme de consultation hors marchés",
+          "React / Next.js / NodeJS / Express / Typescript",
+          "Dépôt / modification / suppression de consultations",
+          "Matching system",
+          "Search on map",
+          "Payment system integration",
+          "Unit & E2E test (Jest / Cypress)",
+          "Postman for the API",
+          "Technical documentation (Docusaurus)"
+        ]
+      },
+      {
         "title": "Open Source Projects",
         "date": {
           "begin": "September 2022",
