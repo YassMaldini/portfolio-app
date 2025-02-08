@@ -7,15 +7,15 @@
 <div align="center">
 
   <p align="center">
-  <a href="[https://github.com/YassMaldini/react-native-twitch](https://github.com/YassMaldini/react-native-twitch)">
+  <a href="[https://github.com/YassMaldini/portfolio-app](https://github.com/YassMaldini/portfolio-app)">
     <img src="assets/icon.png" style="border-radius: 5px;" alt="Logo" width="80" height="80">
       <h1 align="center">YassBK</h1>
   </a>
   </p>
   
-  <img src="https://img.shields.io/github/package-json/dependency-version/YassMaldini/react-native-twitch/react-native?logo=React" />
-  <img src="https://img.shields.io/github/package-json/dependency-version/YassMaldini/react-native-twitch/expo?color=blueviolet&logo=Expo" />
-  <img src="https://img.shields.io/github/actions/workflow/status/YassMaldini/react-native-twitch/eas-build.yml" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/YassMaldini/portfolio-app/react-native?logo=React" />
+  <img src="https://img.shields.io/github/package-json/dependency-version/YassMaldini/portfolio-app/expo?color=blueviolet&logo=Expo" />
+  <img src="https://img.shields.io/github/actions/workflow/status/YassMaldini/portfolio-app/eas-build.yml" />
   <br />
   <br />
   
@@ -27,23 +27,6 @@
   
   <img src=".github/examples/example.gif" />
 </div>
-
-## Try on your device
-
-- 🍎 iOS
-  <br />
-  <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/8523b2f9-cc1e-4fe1-8548-d4e1c9211a68">
-  https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/8523b2f9-cc1e-4fe1-8548-d4e1c9211a68
-  </a>
-  <br />
-  Note: You will need to enable Developer Mode on your iOS device to install the app.
-  You can follow <a href="https://docs.expo.dev/guides/ios-developer-mode/">these instructions</a> to enable Developer Mode.
-
-- 🤖 Android
-  <br />
-  <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/e7a0db18-a984-4831-b343-b2520644bb52">
-  https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/e7a0db18-a984-4831-b343-b2520644bb52
-  </a>
 
 <!-- GETTING STARTED -->
 
@@ -72,7 +55,7 @@ Follow these steps to set up the project locally.
    ```sh
    yarn install
    ```
-3. Prebuild both ios and android
+3. Prebuild both ios and android (optionnal)
    ```sh
    npx expo prebuild
    ```
@@ -86,12 +69,12 @@ Follow these steps to set up the project locally.
 Create a build with EAS
 
 ```sh
-eas build --platform android|ios|all --profile development|preview|production
+npx eas build --platform android|ios|all --profile development|preview|production
 ```
 
 - You can also create a build locally
   ```sh
-  eas build --platform android|ios|all --profile development|preview|production --local
+  npx eas build --platform android|ios|all --profile development|preview|production --local
   ```
 
 ### Test
