@@ -42,9 +42,9 @@ export default {
         'expo-build-properties',
         {
           android: {
-            compileSdkVersion: 31,
-            targetSdkVersion: 31,
-            buildToolsVersion: '31.0.0',
+            compileSdkVersion: 34,
+            targetSdkVersion: 34,
+            buildToolsVersion: '34.0.0',
           },
         },
       ],
@@ -54,6 +54,7 @@ export default {
           initialOrientation: 'ALL',
         },
       ],
+      ['expo-font'],
       [
         '@config-plugins/detox',
         {
@@ -61,8 +62,6 @@ export default {
         },
       ],
       ['sentry-expo'],
-      ['expo-community-flipper'],
-      ['react-native-flipper-performance-plugin'],
     ],
     extra: {
       eas: {

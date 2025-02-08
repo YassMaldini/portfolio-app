@@ -23,12 +23,14 @@ const PortfolioScreen = () => {
           </Trans>
         </Text>
         <ProjectsList {...{ setImages, setIsImageViewerVisible }} />
-        <ImageView
-          images={images}
-          imageIndex={0}
-          visible={isImageViewerVisible}
-          onRequestClose={() => setIsImageViewerVisible(false)}
-        />
+        {images.length > 0 && isImageViewerVisible && (
+          <ImageView
+            images={images}
+            imageIndex={0}
+            visible={isImageViewerVisible}
+            onRequestClose={() => setIsImageViewerVisible(false)}
+          />
+        )}
       </Box>
     </ScrollView>
   );

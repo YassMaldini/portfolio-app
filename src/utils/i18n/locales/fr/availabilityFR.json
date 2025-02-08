@@ -4,7 +4,7 @@
     "available": "Je suis actuellement <0>disponible</0>, vous pouvez me par les moyens suivants:",
     "unavailable": "Je suis actuellemnt <0>indisponible</0>, cependant je reste joignable par les moyens suivants:",
     "ways": {
-      "linkedin": "Mon profile Linkedin <0>(peu actif)</0>"
+      "linkedin": "Mon profile Linkedin <0>(inactif)</0>"
     }
   }
 }

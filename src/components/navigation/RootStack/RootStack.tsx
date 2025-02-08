@@ -17,7 +17,6 @@ const RootStack = () => {
     (async () => {
       const response = await fetch('https://app.yassbk.com/is_available');
       const { isAvailable } = await response.json();
-      console.log('isAvailable', isAvailable);
       setAvailability(isAvailable)(dispatch);
     })();
   }, [dispatch]);

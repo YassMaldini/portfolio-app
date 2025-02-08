@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import HomePresentation from './HomePresentation/HomePresentation';
 import HomeProjects from './HomeProjects/HomeProjects';
 import HomeSkills from './HomeSkills/HomeSkills';
-import HomeRemote from './HomeRemote/HomeRemote';
 
 const HomeScreen = () => {
   const scrollViewRef = useRef<ScrollView>(null);
@@ -13,7 +12,7 @@ const HomeScreen = () => {
     <ScrollView ref={scrollViewRef}>
       <Box flex={1}>
         <HomePresentation {...{ scrollViewRef }} />
-        <HomeRemote />
+        {/* <HomeRemote /> */}
         <HomeSkills />
         <HomeProjects />
       </Box>

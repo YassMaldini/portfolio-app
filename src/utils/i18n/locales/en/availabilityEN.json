@@ -4,7 +4,7 @@
     "available": "I'm currently <0>available</0>, you can reach me by the following ways:",
     "unavailable": "I'm <0>not available</0> currently, however you can still reach me by the following ways:",
     "ways": {
-      "linkedin": "My Linkedin profile <0>(little activity)</0>"
+      "linkedin": "My Linkedin profile <0>(not active)</0>"
     }
   }
 }
