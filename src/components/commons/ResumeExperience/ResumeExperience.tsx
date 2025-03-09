@@ -2,10 +2,17 @@ import { Fragment, useMemo } from 'react';
 import Box from '../../designSystem/Box/Box';
 import Text from '../../designSystem/Text/Text';
 import { ResumeExperienceProps } from './ResumeExperience.types';
+import { Trans } from 'react-i18next';
 
-const ResumeExperience = ({ title, date, place, stack, description, features }: ResumeExperienceProps) => {
-
-  const hasSameBeginAndEnd = useMemo(() => date?.begin === date?.end, [date])
+const ResumeExperience = ({
+  title,
+  date,
+  place,
+  stack,
+  description,
+  features,
+}: ResumeExperienceProps) => {
+  const hasSameBeginAndEnd = useMemo(() => date?.begin === date?.end, [date]);
 
   return (
     <Box marginBottom="m">
@@ -29,11 +36,13 @@ const ResumeExperience = ({ title, date, place, stack, description, features }: 
           </Fragment>
         ))}
       </Text>
-      {description && 
+      {description && (
         <Text fontSize={15} marginBottom="s">
-          {description}
+          <Trans components={[<Text key="highlight" fontSize={15} color="textHighlight" />]}>
+            {description}
+          </Trans>
         </Text>
-      }
+      )}
       {features.map((item, index) => (
         <Text key={`feature#${index}`} fontSize={15}>
           • {item}

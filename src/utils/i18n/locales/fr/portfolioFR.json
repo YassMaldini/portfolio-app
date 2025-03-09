@@ -1,6 +1,12 @@
 {
   "title": "Parcourir les <0>projets</0>",
   "projects": {
+    "linguizz": {
+      "title": "Application <0>Linguizz</0>"
+    },
+    "FA": {
+      "title": "Application <0>Family Avantages</0>"
+    },
     "personal": {
       "title": "Application personnelle <0>(app actuelle)</0>"
     },

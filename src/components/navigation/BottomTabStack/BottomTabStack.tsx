@@ -5,24 +5,24 @@ import HomeScreen from '../../screens/HomeScreen/HomeScreen';
 import { SvgIcon } from '../../designSystem/SvgIcon/SvgIcon';
 import HomeIcon from '../../../../assets/vectors/home-outline.svg';
 import AlbumsIcon from '../../../../assets/vectors/albums-outline.svg';
-import CalendarIcon from '../../../../assets/vectors/calendar-outline.svg';
+// import CalendarIcon from '../../../../assets/vectors/calendar-outline.svg';
 import SettingsIcon from '../../../../assets/vectors/settings-outline.svg';
 import NewspaperIcon from '../../../../assets/vectors/newspaper-outline.svg';
 import ResumeScreen from '../../screens/ResumeScreen/ResumeScreen';
 import SettingsScreen from '../../screens/SettingsScreen/SettingsScreen';
 import { useTranslation } from 'react-i18next';
 import PortfolioScreen from '../../screens/PortfolioScreen/PortfolioScreen';
-import AvailabilityScreen from '../../screens/AvailabilityScreen/AvailabilityScreen';
-import Box from '../../designSystem/Box/Box';
-import { useSelector } from 'react-redux';
-import { availabilitySelector } from '../../../store/main/mainReducerSelectors';
+// import AvailabilityScreen from '../../screens/AvailabilityScreen/AvailabilityScreen';
+// import Box from '../../designSystem/Box/Box';
+// import { useSelector } from 'react-redux';
+// import { availabilitySelector } from '../../../store/main/mainReducerSelectors';
 
 const BottomTabStack = () => {
   const { t } = useTranslation('commons', { keyPrefix: 'bottomTab' });
 
   const theme = useTheme<Theme>();
 
-  const isAvailable = useSelector(availabilitySelector);
+  // const isAvailable = useSelector(availabilitySelector);
 
   const iconSize = 24;
   const iconColor = (focused: boolean) => (focused ? 'iconHighlight' : 'text');
@@ -94,7 +94,7 @@ const BottomTabStack = () => {
           tabBarInactiveTintColor: theme.colors.text,
         }}
       />
-      <Screen
+      {/* <Screen
         name="AvailabilityScreen"
         component={AvailabilityScreen}
         options={{
@@ -121,7 +121,7 @@ const BottomTabStack = () => {
           tabBarActiveTintColor: theme.colors.textHighlight,
           tabBarInactiveTintColor: theme.colors.text,
         }}
-      />
+      /> */}
       <Screen
         name="SettingsScreen"
         component={SettingsScreen}

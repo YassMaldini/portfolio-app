@@ -3,6 +3,62 @@ import { ProjectsListData } from './ProjectsList.types';
 
 export const projectsListData: (t: TFunction) => ProjectsListData[] = (t) => [
   {
+    title: t('portfolio:projects.linguizz.title'),
+    stack: ['React Native', 'Expo', 'Swift', 'Kotlin', 'Typescript'],
+    date: `${t('commons:months.october')} 2024`,
+    images: [
+      {
+        uri: 'https://yassbk.com/app_images/linguizz/Linguizz1.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/linguizz/Linguizz2.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/linguizz/Linguizz3.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/linguizz/Linguizz4.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/linguizz/Linguizz5.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/linguizz/Linguizz6.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/linguizz/Linguizz7.png',
+      },
+    ],
+  },
+  {
+    title: t('portfolio:projects.FA.title'),
+    stack: ['React Native', 'Expo', 'Typescript', 'Redux'],
+    date: `${t('commons:months.march')} 2024`,
+    images: [
+      {
+        uri: 'https://yassbk.com/app_images/FA/FA1.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/FA/FA2.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/FA/FA3.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/FA/FA4.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/FA/FA5.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/FA/FA6.png',
+      },
+      {
+        uri: 'https://yassbk.com/app_images/FA/FA7.png',
+      },
+    ],
+  },
+  {
     title: t('portfolio:projects.personal.title'),
     stack: ['React Native', 'Expo', 'Typescript', 'Redux'],
     date: `${t('commons:months.february')} 2023`,

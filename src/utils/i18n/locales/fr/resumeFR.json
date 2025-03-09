@@ -8,7 +8,7 @@
           "begin": "2024",
           "end": "2024"
         },
-        "place": "Family avantages, Perpignan",
+        "place": "Family avantages, Perpignan (freelance)",
         "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MySQL"],
         "description": "Développement d’une application mobile et d’un CRM permettant aux particuliers d’accéder à des offres promotionnelles locales, avec gestion des souscriptions, des paiements et un système de QR code pour valider les offres.",
         "features": [
@@ -26,7 +26,7 @@
           "begin": "2023",
           "end": "2024"
         },
-        "place": "Lens group, Perpignan (remote)",
+        "place": "Lens group, Perpignan (salarié)",
         "stack": ["React.js", "Node.js", "Express.js", "MySQL"],
         "description": "Développement d’une plateforme web permettant aux entreprises de publier et consulter des offres hors marchés, avec un système de matching, de recherche avancée et d’intégration de paiements sécurisés.",
         "features": [
@@ -47,7 +47,7 @@
           "begin": "2022",
           "end": "2022"
         },
-        "place": "Cocolis, Paris (remote)",
+        "place": "Cocolis, Paris (salarié)",
         "stack": ["React Native", "Expo", "Typescript", "Redux"],
         "description": "Développement d’une application mobile de mise en relation entre particuliers et transporteurs pour l’envoi collaboratif de colis.",
         "features": [
@@ -65,7 +65,7 @@
           "begin": "2021",
           "end": "2021"
         },
-        "place": "Location 253, Perpignan (remote)",
+        "place": "Location 253, Perpignan (freelance)",
         "stack": ["React.js", "React Native", "Node.js", "Express.js", "MySQL"],
         "description": "Développement d’un CRM et du back-end d’un site web de location de véhicules, intégrant un système de réservation, de gestion de flotte, de génération de contrats PDF et de paiement en ligne via Stripe.",
         "features": [
@@ -86,7 +86,7 @@
           "begin": "2019",
           "end": "2021"
         },
-        "place": "Web Murphy, Narbonne (remote)",
+        "place": "Web Murphy, Narbonne (freelance)",
         "stack": ["HTML", "CSS", "Javascript", "PHP", "MySQL", "React Native"],
         "description": "Développement de multiples projets web et mobiles, incluant des systèmes de gestion (authentification, messagerie, pointage), des plateformes e-commerce et des intégrations de paiement en ligne avec Stripe.",
         "features": [
@@ -102,6 +102,89 @@
           "Envois d'email",
           "Personnalisation de template d'emails",
           "Intégration du système de paiement (stripe)"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "PROJETS PERSO",
+    "experiences": [
+      {
+        "title": "Prototype projet IA",
+        "date": {
+          "begin": "2024",
+          "end": "2025"
+        },
+        "place": "POV",
+        "stack": [
+          "React.js",
+          "Next.js",
+          "Typescript",
+          "Node.js",
+          "Express.js",
+          "Sequelize",
+          "neo4j",
+          "RAG"
+        ],
+        "description": "Développement d’une plateforme web combinant IA et agrégation d’actualités pour analyser et comparer les biais médiatiques, avec un back-office, un front-end interactif et une intégration de Knowledge Graph pour la contextualisation des informations.",
+        "features": [
+          "Front-end + Backoffice (React / Next.js / Typescript / MUI)",
+          "Back-end (NodeJS / Express / Sequelize (MySQL) / Typescript)",
+          "AI Agent + RAG + Knownledge Graph (neo4j)"
+        ]
+      },
+      {
+        "title": "Dummy app",
+        "date": {
+          "begin": "2024",
+          "end": "2024"
+        },
+        "place": "Linguizz",
+        "stack": ["React Native", "Swift", "Kotlin", "Expo", "Typescript", "Redux"],
+        "description": "Une dummy app est une application qui est fonctionnelle mais n’est pas vouée à être utilisée. Elle a pour objectif de permettre de <0>tester des implémentations en environnement réel</0>.",
+        "features": [
+          "Application mobile d'apprentissage de langue",
+          "React Native (Expo)",
+          "Développement natif (Swift & Kotlin)",
+          "CI / CD (Github Actions)",
+          "Déploiement sur les stores",
+          "Traçage des erreurs (Sentry)",
+          "Tests unitaires + tests E2E (Jest / Detox)",
+          "Gestion des traductions (i18n)",
+          "Mode sombre",
+          "Push notifications"
+        ]
+      },
+      {
+        "title": "Portfolio & clones d'applications",
+        "date": {
+          "begin": "2022",
+          "end": "2022"
+        },
+        "place": "",
+        "stack": ["React Native", "Expo", "Typescript", "Redux"],
+        "description": "",
+        "features": [
+          "Clone application Instagram",
+          "Clone application Twitch",
+          "Clone application Linguee",
+          "Application portfolio"
+        ]
+      },
+      {
+        "title": "Website builder + applications + CRM",
+        "place": "",
+        "date": {
+          "begin": "2021",
+          "end": "2021"
+        },
+        "description": "",
+        "stack": ["React.js", "React Native", "Node.js", "Express.js", "MongoDB"],
+        "features": [
+          "Développement d'un système d'édition et génération de sites web",
+          "Développement application mobile de réservation de RDV + backoffice",
+          "Développement application mobile e-commerce + backoffice",
+          "Développement application mobile de commande de plats + backoffice"
         ]
       }
     ]

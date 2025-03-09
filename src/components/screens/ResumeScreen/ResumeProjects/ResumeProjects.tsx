@@ -5,8 +5,8 @@ import { ResumeExperienceProps } from '../../../commons/ResumeExperience/ResumeE
 import Box from '../../../designSystem/Box/Box';
 import Text from '../../../designSystem/Text/Text';
 
-const ResumeCareer = () => {
-  const { t } = useTranslation('resume', { keyPrefix: 'career' });
+const ResumeProjects = () => {
+  const { t } = useTranslation('resume', { keyPrefix: 'projects' });
 
   const experiences = useMemo(
     () => t('experiences', { returnObjects: true }),
@@ -34,4 +34,4 @@ const ResumeCareer = () => {
   );
 };
 
-export default ResumeCareer;
+export default ResumeProjects;

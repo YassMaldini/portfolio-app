@@ -1,6 +1,12 @@
 {
   "title": "Browse <0>projects</0>",
   "projects": {
+    "linguizz": {
+      "title": "<0>Linguizz</0> app"
+    },
+    "FA": {
+      "title": "<0>Family Avantages</0> app"
+    },
     "personal": {
       "title": "Personal application <0>(current app)</0>"
     },
