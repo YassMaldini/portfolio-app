@@ -3,41 +3,34 @@ name: EAS Submit
 on:
   push:
     branches:
-      - main
+      - prod
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
     steps:
       - name: 🏗 Setup repo
-        uses: actions/checkout@v2
-        with:
-          repository: YassMaldini/portfolio-app
-          token: ${{ secrets.PAT }}
-          ref: main
+        uses: actions/checkout@v3
 
       - name: 🏗 Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
           cache: yarn
 
-      - name: Setup Expo and EAS
-        uses: expo/expo-github-action@v7
+      - name: 🏗 Setup EAS
+        uses: expo/expo-github-action@v8
         with:
-          expo-version: 5.x
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: 📦 Install dependencies
         run: yarn install
 
-      - name: 🚀 Create build
-        run: eas build -p ios --non-interactive
+      - name: 🚀 Create and submit build
+        run: eas build --platform all --auto-submit --non-interactive --no-wait
         env:
           EXPO_APPLE_ID: ${{secrets.APPLE_ACCOUNT_ID}}
           EXPO_APPLE_PASSWORD: ${{secrets.APPLE_ACCOUNT_PASSWORD}}
 
-      - name: 🚀 Submit build
-        run: eas submit -p ios --latest --non-interactive
+      # - name: 🚀 Submit build
+      #   run: eas submit -p ios --latest --non-interactive
