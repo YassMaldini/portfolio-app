@@ -12,7 +12,7 @@ export const languagesList = (t: TFunction): LanguageListItem[] => [
   },
   {
     language: t('commons:languages.en'),
-    level: t('resume:languages.levels.intermediate'),
+    level: t('resume:languages.levels.advanced'),
     icon: GbIcon,
   },
   {

@@ -6,5 +6,6 @@ export interface ResumeExperienceProps {
   };
   place?: string;
   stack: string[];
+  description?: string;
   features: string[];
 }

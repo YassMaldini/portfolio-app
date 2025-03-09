@@ -3,49 +3,14 @@
     "title": "PARCOURS PROFESSIONNEL",
     "experiences": [
       {
-        "title": "Développeur Fullstack & IA",
+        "title": "Développeur Fullstack & Mobile",
         "date": {
-          "begin": "Décembre 2024",
-          "end": "Janvier 2025"
+          "begin": "2024",
+          "end": "2024"
         },
-        "place": "POV",
-        "stack": ["React.js", "IA (phi4, bge)", "neo4j", "Node.js", "Express.js", "MySQL"],
-        "features": [
-          "Prototype projet web + IA",
-          "Front-end + Backoffice (React / Next.js / Typescript / MUI)",
-          "Back-end (NodeJS / Express / Sequelize (MySQL) / Typescript)",
-          "AI Agent + RAG + Knownledge Graph (neo4j)"
-        ]
-      },
-      {
-        "title": "Développeur Mobile",
-        "date": {
-          "begin": "Août 2024",
-          "end": "Octobre 2024"
-        },
-        "place": "Dummy app (Linguizz)",
-        "stack": ["React.js", "Node.js", "Express.js", "MySQL"],
-        "features": [
-          "Application mobile d'apprentissage de langue",
-          "React Native (Expo)",
-          "Développement natif (Swift & Kotlin)",
-          "CI / CD (Github Actions)",
-          "Déploiement sur les stores",
-          "Traçage des erreurs (Sentry)",
-          "Tests unitaires + tests E2E (Jest / Detox)",
-          "Gestion des traductions (i18n)",
-          "Mode sombre",
-          "Push notifications"
-        ]
-      },
-      {
-        "title": "Développeur Fullstack",
-        "date": {
-          "begin": "Avril 2024",
-          "end": "Mai 2024"
-        },
-        "place": "Family avantages, Perpignan (remote)",
+        "place": "Family avantages, Perpignan",
         "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MySQL"],
+        "description": "Développement d’une application mobile et d’un CRM permettant aux particuliers d’accéder à des offres promotionnelles locales, avec gestion des souscriptions, des paiements et un système de QR code pour valider les offres.",
         "features": [
           "Développement CRM (front & back)",
           "Développement application mobile style Groupon",
@@ -58,11 +23,12 @@
       {
         "title": "Lead Développeur",
         "date": {
-          "begin": "Mai 2023",
-          "end": "Mars 2024"
+          "begin": "2023",
+          "end": "2024"
         },
         "place": "Lens group, Perpignan (remote)",
         "stack": ["React.js", "Node.js", "Express.js", "MySQL"],
+        "description": "Développement d’une plateforme web permettant aux entreprises de publier et consulter des offres hors marchés, avec un système de matching, de recherche avancée et d’intégration de paiements sécurisés.",
         "features": [
           "Développement plateforme de consultation hors marchés",
           "React / Next.js / NodeJS / Express / Typescript",
@@ -76,27 +42,14 @@
         ]
       },
       {
-        "title": "Projets Open Source",
+        "title": "Développeur Mobile",
         "date": {
-          "begin": "Septembre 2022",
-          "end": "Janvier 2023"
-        },
-        "stack": ["React Native", "Expo", "Typescript", "Redux"],
-        "features": [
-          "Développement d'une application de présentation",
-          "Développement d'un clone de l'application Instagram",
-          "Développement d'un clone de l'application Twitch",
-          "Développement d'un clone de l'application Linguee"
-        ]
-      },
-      {
-        "title": "Application mobile de covoiturage",
-        "date": {
-          "begin": "Avril 2022",
-          "end": "Août 2022"
+          "begin": "2022",
+          "end": "2022"
         },
         "place": "Cocolis, Paris (remote)",
         "stack": ["React Native", "Expo", "Typescript", "Redux"],
+        "description": "Développement d’une application mobile de mise en relation entre particuliers et transporteurs pour l’envoi collaboratif de colis.",
         "features": [
           "Système d'authentification",
           "Recherche d'annonces",
@@ -107,61 +60,35 @@
         ]
       },
       {
-        "title": "Projet perso",
+        "title": "Développeur Fullstack",
         "date": {
-          "begin": "Septembre 2021",
-          "end": "Février 2022"
-        },
-        "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MongoDB"],
-        "features": [
-          "Développement d'un système de génération et d'édition de pages web",
-          "Développement application mobile de réservation de RDV + backoffice",
-          "Développement application mobile e-commerce + backoffice",
-          "Développement application mobile de commande de plats + backoffice"
-        ]
-      },
-      {
-        "title": "Logiciel de gestion",
-        "date": {
-          "begin": "Mai 2021",
-          "end": "Août 2021"
+          "begin": "2021",
+          "end": "2021"
         },
         "place": "Location 253, Perpignan (remote)",
         "stack": ["React.js", "React Native", "Node.js", "Express.js", "MySQL"],
+        "description": "Développement d’un CRM et du back-end d’un site web de location de véhicules, intégrant un système de réservation, de gestion de flotte, de génération de contrats PDF et de paiement en ligne via Stripe.",
         "features": [
           "Développement du front-end en React",
           "Développement du back-end en Node.js",
           "Tableau de bord",
-          "Sysème de réservation",
           "Ajout / modification / suppression de véhicules",
           "Historique de réservation et historique clients",
-          "Génération de contrats en PDF"
-        ]
-      },
-      {
-        "title": "Back-end site web de location de véhicules",
-        "date": {
-          "begin": "Mai 2021",
-          "end": "Août 2021"
-        },
-        "place": "Location 253, Perpignan (remote)",
-        "stack": ["Node.js", "Express.js", "MySQL"],
-        "features": [
+          "Génération de contrats en PDF",
           "Système d'authentification",
           "Système de réservation relié au logiciel de gestion",
-          "Tableau de bord",
-          "Historique de réservations",
           "Intégration du système de paiement (stripe)"
         ]
       },
       {
-        "title": "Multiples projets (fullstack)",
+        "title": "Développeur Fullstack",
         "date": {
-          "begin": "Décembre 2019",
-          "end": "Fevrier 2021"
+          "begin": "2019",
+          "end": "2021"
         },
         "place": "Web Murphy, Narbonne (remote)",
         "stack": ["HTML", "CSS", "Javascript", "PHP", "MySQL", "React Native"],
+        "description": "Développement de multiples projets web et mobiles, incluant des systèmes de gestion (authentification, messagerie, pointage), des plateformes e-commerce et des intégrations de paiement en ligne avec Stripe.",
         "features": [
           "Développements front-end (HTML / CSS / JS)",
           "Développement back-end (PHP / MySQL)",
@@ -193,6 +120,7 @@
     "levels": {
       "basic": "bases",
       "intermediate": "intermédiaire",
+      "advanced": "avancé",
       "fluent": "courant"
     }
   },

@@ -1,180 +1,107 @@
 {
   "career": {
-    "title": "CAREER PATH",
+    "title": "PROFESSIONAL EXPERIENCE",
     "experiences": [
       {
-        "title": "Fullstack / AI developer",
+        "title": "Fullstack & Mobile Developer",
         "date": {
-          "begin": "Décembre 2024",
-          "end": "Janvier 2025"
+          "begin": "2024",
+          "end": "2024"
         },
-        "place": "POV",
-        "stack": ["React.js", "IA (phi4, bge)", "neo4j", "Node.js", "Express.js", "MySQL"],
-        "features": [
-          "Prototype of web + IA project",
-          "Front-end + Backoffice (React / Next.js / Typescript / MUI)",
-          "Back-end (NodeJS / Express / Sequelize (MySQL) / Typescript)",
-          "AI Agent + RAG + Knownledge Graph (neo4j)"
-        ]
-      },
-      {
-        "title": "Mobile developer",
-        "date": {
-          "begin": "Août 2024",
-          "end": "Octobre 2024"
-        },
-        "place": "Dummy app (Linguizz)",
-        "stack": ["React.js", "Node.js", "Express.js", "MySQL"],
-        "features": [
-          "Mobile app of language learning",
-          "React Native (Expo)",
-          "Native devlopment (Swift & Kotlin)",
-          "CI / CD (Github Actions)",
-          "Déployment on the stores",
-          "Error tracking (Sentry)",
-          "Unit & E2E test (Jest / Detox)",
-          "Translation handling (i18n)",
-          "Dark mode",
-          "Push notifications"
-        ]
-      },
-      {
-        "title": "Fullstack developer",
-        "date": {
-          "begin": "Avril 2024",
-          "end": "Mai 2024"
-        },
-        "place": "Family avantages, Perpignan (remote)",
+        "place": "Family avantages, Perpignan",
         "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MySQL"],
+        "description": "Development of a mobile application and a CRM allowing individuals to access local promotional offers, with subscription management, payments, and a QR code system to validate offers.",
         "features": [
-          "Development of a booking application + backoffice",
-          "Development of a mobile app",
+          "CRM development (front & back)",
+          "Development of a Groupon-style mobile application",
           "React / React Native / NodeJS / Express / Typescript",
-          "CRUD particuliers / entreprises / produits / souscriptions",
-          "Stats",
-          "QR code handling"
+          "CRUD for individuals / businesses / products / subscriptions",
+          "Statistics",
+          "QR code system"
         ]
       },
       {
-        "title": "Lead developer fullstack",
+        "title": "Lead Developer",
         "date": {
-          "begin": "Mai 2023",
-          "end": "Mars 2024"
+          "begin": "2023",
+          "end": "2024"
         },
         "place": "Lens group, Perpignan (remote)",
         "stack": ["React.js", "Node.js", "Express.js", "MySQL"],
+        "description": "Development of a web platform allowing businesses to post and consult off-market offers, with a matching system, advanced search, and secure payment integration.",
         "features": [
-          "Développement plateforme de consultation hors marchés",
+          "Development of an off-market consultation platform",
           "React / Next.js / NodeJS / Express / Typescript",
-          "Dépôt / modification / suppression de consultations",
+          "Submission / modification / deletion of consultations",
           "Matching system",
-          "Search on map",
+          "Search system with a map",
           "Payment system integration",
-          "Unit & E2E test (Jest / Cypress)",
-          "Postman for the API",
-          "Technical documentation (Docusaurus)"
+          "Unit tests + E2E tests (Jest / Cypress)",
+          "Postman for API testing",
+          "Documentation writing (Docusaurus)"
         ]
       },
       {
-        "title": "Open Source Projects",
+        "title": "Mobile Developer",
         "date": {
-          "begin": "September 2022",
-          "end": "January 2023"
-        },
-        "stack": ["React Native", "Expo", "Typescript", "Redux"],
-        "features": [
-          "Development of a presentation application",
-          "Development of a clone of the Instagram application",
-          "Development of a clone of the Twitch application",
-          "Development of a clone of the Linguee application"
-        ]
-      },
-      {
-        "title": "Carpooling mobile application",
-        "date": {
-          "begin": "April 2022",
-          "end": "August 2022"
+          "begin": "2022",
+          "end": "2022"
         },
         "place": "Cocolis, Paris (remote)",
         "stack": ["React Native", "Expo", "Typescript", "Redux"],
+        "description": "Development of a mobile application connecting individuals and transporters for collaborative parcel delivery.",
         "features": [
           "Authentication system",
-          "Search for ads",
-          "Search for ads linked to a map",
-          "Rights management",
-          "Ads submitting",
+          "Ad search",
+          "Map-based search",
+          "Access control management",
+          "Ad submission",
           "Unit tests"
         ]
       },
       {
-        "title": "Personnal project",
+        "title": "Fullstack Developer",
         "date": {
-          "begin": "September 2021",
-          "end": "February 2022"
-        },
-        "stack": ["React.js", "React Native", "Expo", "Redux", "Node.js", "Express.js", "MongoDB"],
-        "features": [
-          "Development of a web page generation and editing system",
-          "Development of a booking application + backoffice",
-          "Development of an e-commerce application + backoffice",
-          "Development of a food ordering application + backoffice"
-        ]
-      },
-      {
-        "title": "Managment software",
-        "date": {
-          "begin": "May 2021",
-          "end": "August 2021"
+          "begin": "2021",
+          "end": "2021"
         },
         "place": "Location 253, Perpignan (remote)",
         "stack": ["React.js", "React Native", "Node.js", "Express.js", "MySQL"],
+        "description": "Development of a CRM and the backend of a vehicle rental website, integrating a booking system, fleet management, PDF contract generation, and online payment via Stripe.",
         "features": [
-          "Front-end development in React",
-          "Back-end development in Node.js",
+          "Frontend development in React",
+          "Backend development in Node.js",
           "Dashboard",
-          "Rental system",
-          "Add / Update / Delete vehicles",
-          "Rental and client history",
-          "Contracts generation in PDF"
-        ]
-      },
-      {
-        "title": "Back-end of a car rental website",
-        "date": {
-          "begin": "May 2021",
-          "end": "August 2021"
-        },
-        "place": "Location 253, Perpignan (remote)",
-        "stack": ["Node.js", "Express.js", "MySQL"],
-        "features": [
+          "Adding / modifying / deleting vehicles",
+          "Booking and customer history",
+          "PDF contract generation",
           "Authentication system",
-          "Rental system linked to the management software",
-          "Dashboard",
-          "Rental history",
-          "Integration of the payment system (stripe)"
+          "Booking system linked to management software",
+          "Payment system integration (Stripe)"
         ]
       },
       {
-        "title": "Many projets (fullstack)",
+        "title": "Fullstack Developer",
         "date": {
-          "begin": "December 2019",
-          "end": "February 2021"
+          "begin": "2019",
+          "end": "2021"
         },
         "place": "Web Murphy, Narbonne (remote)",
         "stack": ["HTML", "CSS", "Javascript", "PHP", "MySQL", "React Native"],
+        "description": "Development of multiple web and mobile projects, including management systems (authentication, messaging, time tracking), e-commerce platforms, and online payment integrations with Stripe.",
         "features": [
-          "Front-end developments (HTML / CSS / JS)",
-          "Back-end developments (PHP / MySQL)",
+          "Frontend development (HTML / CSS / JS)",
+          "Backend development (PHP / MySQL)",
           "Mobile development (React Native)",
           "Authentication system",
-          "Rights management",
+          "Access rights management",
           "Leave management system",
-          "Pointing system",
+          "Time tracking system",
           "Messaging",
           "Cron tasks",
           "Email sending",
           "Email template customization",
-          "Integration of payment system (stripe)"
+          "Payment system integration (Stripe)"
         ]
       }
     ]
@@ -183,7 +110,7 @@
     "title": "EDUCATION",
     "degrees": [
       {
-        "name": "Titre Professionnel Développeur Web & Web Mobile <0>(Bac +2)</0>",
+        "name": "Professional Web & Mobile Developer Degree <0>(Bac +2)</0>",
         "place": "Simplon.co, Narbonne"
       }
     ]
@@ -193,6 +120,7 @@
     "levels": {
       "basic": "basic",
       "intermediate": "intermediate",
+      "advanced": "advanced",
       "fluent": "fluent"
     }
   },

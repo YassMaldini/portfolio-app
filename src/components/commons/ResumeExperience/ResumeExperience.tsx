@@ -1,14 +1,17 @@
-import { Fragment } from 'react';
+import { Fragment, useMemo } from 'react';
 import Box from '../../designSystem/Box/Box';
 import Text from '../../designSystem/Text/Text';
 import { ResumeExperienceProps } from './ResumeExperience.types';
 
-const ResumeExperience = ({ title, date, place, stack, features }: ResumeExperienceProps) => {
+const ResumeExperience = ({ title, date, place, stack, description, features }: ResumeExperienceProps) => {
+
+  const hasSameBeginAndEnd = useMemo(() => date?.begin === date?.end, [date])
+
   return (
     <Box marginBottom="m">
       {date && (
         <Text color="textSubdued">
-          {date.begin} - {date.end}
+          {date.begin} {!hasSameBeginAndEnd && `- ${date.end}`}
         </Text>
       )}
       <Text fontSize={20} fontFamily="Roboto-Medium">
@@ -26,6 +29,11 @@ const ResumeExperience = ({ title, date, place, stack, features }: ResumeExperie
           </Fragment>
         ))}
       </Text>
+      {description && 
+        <Text fontSize={15} marginBottom="s">
+          {description}
+        </Text>
+      }
       {features.map((item, index) => (
         <Text key={`feature#${index}`} fontSize={15}>
           • {item}

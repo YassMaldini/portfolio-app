@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import ResumeExperience from '../../../commons/ResumeExperience/ResumeExperience';
 import { ResumeExperienceProps } from '../../../commons/ResumeExperience/ResumeExperience.types';
@@ -13,18 +13,22 @@ const ResumeCareer = () => {
     [t]
   ) as ResumeExperienceProps[];
 
+  useEffect(() => {
+    console.log('experiences', experiences)
+  }, [experiences])
+
   return (
     <Box>
       <Text variant="title2" marginBottom="sToM">
         {t('title')}
       </Text>
       {Object.values(experiences).map((experience, index) => {
-        const { title, date, place, stack, features } = experience;
+        const { title, date, place, stack, description, features } = experience;
 
         return (
           <ResumeExperience
             key={index}
-            {...{ title, place, date }}
+            {...{ title, place, date, description }}
             stack={Object.values(stack).map((techno) => techno as string)}
             features={Object.values(features).map((feature) => feature as string)}
           />

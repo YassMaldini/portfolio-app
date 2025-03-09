@@ -9,6 +9,8 @@ import PythonIcon from '../../../../../assets/vectors/technos/python.svg';
 import ReactIcon from '../../../../../assets/vectors/technos/react.svg';
 import ReduxIcon from '../../../../../assets/vectors/technos/redux.svg';
 import TypescriptIcon from '../../../../../assets/vectors/technos/typescript.svg';
+import SwiftIcon from '../../../../../assets/vectors/technos/swift.svg';
+import KotlinIcon from '../../../../../assets/vectors/technos/kotlin.svg';
 
 export const technologiesList = [
   {
@@ -24,6 +26,16 @@ export const technologiesList = [
   {
     icon: TypescriptIcon,
     label: 'Typescript',
+    enabled: true,
+  },
+  {
+    icon: SwiftIcon,
+    label: 'Swift',
+    enabled: true,
+  },
+  {
+    icon: KotlinIcon,
+    label: 'Kotlin',
     enabled: true,
   },
   {
