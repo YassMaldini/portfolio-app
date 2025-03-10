@@ -20,12 +20,21 @@
   <br />
   
   <p align="center">
-    <b>My portfolio mobile app made in React Native and Typescript.</b>
+    <b>My portfolio mobile app made using React Native and Typescript.</b>
   </p>
   
   <br />
   
   <img src=".github/examples/example.gif" />
+</div>
+
+<div>
+  <p>
+    🤖 Android build: <a href="https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/7b2e4f57-1033-4408-a9fe-63ca0aa28c51">https://expo.dev/accounts/yass66s/projects/portfolio-app/builds/7b2e4f57-1033-4408-a9fe-63ca0aa28c51</a>
+  </p>
+  <p>
+    🍏 iOS online simulator: <a href="https://appetize.io/app/b_mqxpmfr3zafk6lncrg2yarkmvq">https://appetize.io/app/b_mqxpmfr3zafk6lncrg2yarkmvq</a>
+  </p>
 </div>
 
 <!-- GETTING STARTED -->
